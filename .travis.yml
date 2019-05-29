@@ -1,16 +1,21 @@
 language: node_js
 node_js:
   - "11.0"
+sudo: required
 branches:
   only:
     - master
 before_script:
+  - npm install -g --silent firebase-tools
   - npm install -g @angular/cli
 script:
   - npm install
-  - npm run build
+  - ng build --prod
 deploy:
   skip_cleanup: true
   provider: firebase
   token:
     secure: "1/St7DD3G1QTmK-hdghJoK4cS348_bxklRqbuM3t7KGuE"
+
+after_success:
+  - firebase deploy --token "1/St7DD3G1QTmK-hdghJoK4cS348_bxklRqbuM3t7KGuE" --non-interactive
