@@ -6,15 +6,12 @@
 
 .top-banner {
 
-	top: 0 px;
-	height: 200px;
+	height: 15%;
 	background-color: #E21E2A;
 	margin-bottom: 10px;
 
 }
-div {
-	font-size: 1em;
-}
+
 
 .bottom-banner {
 
@@ -36,6 +33,4 @@ margin-bottom: 20px;
 
 .ref {
 	color : white;
-	position: absolute;
-	left :40%;
 }
