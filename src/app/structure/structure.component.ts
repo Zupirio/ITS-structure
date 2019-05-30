@@ -12,4 +12,8 @@ export class StructureComponent implements OnInit {
   ngOnInit() {
   }
 
+  showMe(i) {
+  	console.log(i);
+  }
+
 }
