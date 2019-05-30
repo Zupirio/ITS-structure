@@ -17,3 +17,8 @@ body {
  background-blend-mode: lighten;
  border-radius: 15% 15% 15% 15% / 15% 15% 15% 15%;
 }
+
+.chief, .vish
+{
+    color: white;
+}
