@@ -161,6 +161,17 @@ body {
     border: 5px solid rgba(255, 255, 255, 0.5);
 }
 
+.vishPic {
+    width: 400%;
+    height: 400%;
+    max-width: 200px;
+    max-height: 300px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
 .card.hovercard .info {
     padding: 4px 8px 10px;
 }
@@ -252,4 +263,5 @@ body {
 .chief,
 .vish {
     color: white;
+    cursor: pointer;
 }
