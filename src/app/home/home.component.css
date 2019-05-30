@@ -6,6 +6,7 @@
 
 .top-banner {
 
+	overflow: hidden;
 	height: 15%;
 	background-color: #E21E2A;
 	margin-bottom: 10px;
@@ -15,6 +16,7 @@
 
 .bottom-banner {
 
+overflow: hidden;
 margin-top: 10px;
 margin-bottom: 20px;
 
