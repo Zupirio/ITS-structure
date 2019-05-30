@@ -252,4 +252,5 @@ body {
 .chief,
 .vish {
     color: white;
+    cursor: pointer;
 }
