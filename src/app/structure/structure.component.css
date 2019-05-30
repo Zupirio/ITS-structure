@@ -1,4 +1,4 @@
-table,
+    table,
 th,
 td {
     border: 15px solid white;
@@ -227,4 +227,23 @@ body {
     -webkit-transform: rotate(135deg);
     margin: 65%;
     margin-right: 5px;
-}
+    th,
+    td {
+        padding: 1vw;
+    }
+    body {
+        background-color: white;
+        font-size: 1vw;
+    }
+    .block {
+        text-decoration-color: white;
+        /* box-shadow: 1px 1px 2px 6px #ccc; */
+        background: #e2e0db;
+        background-image: linear-gradient(-180deg, rgba(255, 255, 255, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%);
+        background-blend-mode: lighten;
+        border-radius: 15% 15% 15% 15% / 15% 15% 15% 15%;
+    }
+    .chief,
+    .vish {
+        color: white;
+    }
