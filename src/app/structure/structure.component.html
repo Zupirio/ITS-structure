@@ -3,7 +3,7 @@
   <br><br><br>
 
   <div>
-    <p style="text-align: center"><i>Click on the names to find out more.</i></p>
+    <p style="text-align: center"><i>Click on text to find out more.</i></p>
   </div>
   <br><br>
 
@@ -247,7 +247,7 @@ drives the strategic objectives and KPI’s with his leadership team.
                                   <div class="desc">{{cardprofile.description}}</div>
                                   <div class="desc"></div>
                                   <div class="desc"></div>
-                                  <div *ngIf = "cardprofile.alternate" class="desc">
+                                  <div *ngIf = "cardprofile.alternate.name" class="desc">
                                     <br><span><u>Alternate Contact</u>:</span>
                                     <span><b>
                                     {{cardprofile.alternate.name}}</b>
@@ -270,7 +270,7 @@ drives the strategic objectives and KPI’s with his leadership team.
 
       
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button id="modal-close" type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         </div>
       </div>
       
