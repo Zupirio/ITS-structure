@@ -60,7 +60,7 @@ export class StructureComponent implements OnInit {
   employees = [{
             "department": "Chief of IT Solutions", /* 0 */
             "name": "Vish Rajpal",
-            "description": "Vish is the BCX Exco member who leads the IT Solutions Division and drives the strategic objectives and KPI’s with his leadership team. Vish is also responsible for...",
+            "description": "Vish is the BCX Exco member who leads the IT Solutions Division and drives the strategic objectives and KPI’s with his leadership team.",
             "imageUrl": "",
             "alternate": {
                 "department": "",
@@ -112,7 +112,7 @@ export class StructureComponent implements OnInit {
             }
         },
         {
-            "department": "Marketing & Communications Lead",/* 4 */
+            "department": "Marketing & Communications",/* 4 */
             "name": "Nikhil Ramlal",
             "description": "Nikhil is the liaison with BCX Marketing and is the custodian of marketing collateral and GTM planning. He assists with campaigns across the BU’s and is also involved with innovation and digital marketing. He is the creative support for ITS.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Nik-min.jpg",
@@ -125,7 +125,7 @@ export class StructureComponent implements OnInit {
             }
         },
         {
-            "department": "Commercial Executive",/* 5 */
+            "department": "Commercial",/* 5 */
             "name": "Willem Stigling",
             "description": "Willem provides commercial support for Vish Rajpal and the ITS leadership team. He is involved with commercial contracting as well as advising on large deal commercials. Closely linked to the financial function, Willem provides risk and governance support to the team.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Willem-min.jpg",
@@ -177,7 +177,7 @@ export class StructureComponent implements OnInit {
             }
         },
         {
-            "department": "Cloud Consulting Lead", /* 9 */
+            "department": "Cloud Consulting", /* 9 */
             "name": "Markham Parenzee",
             "description": "Markham recently joined BCX to lead the Cloud Consulting capability. He consults to customers on a wide range of cloud-related topics and collaborates across BCX with other cloud-related functions. The cloud consulting capability is newly established and Markham brings a wealth of experience in the field, which is now available to BCX customers who are all on some form of cloud journey. Markham brings together the BCX cloud and infrastructure offerings, the OEM cloud offerings as well as the global hyperscale cloud vendors in a cohesive consulting framework. He is also responsible for establishing and launching the BCX AWS Practice.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Markham-min.jpg",
@@ -190,7 +190,7 @@ export class StructureComponent implements OnInit {
             }
         },
         {
-            "department": "Envisioning Lead", /* 10 */
+            "department": "Digital Envision", /* 10 */
             "name": "Fazel Ally",
             "description": "A seasoned solution architect, Fazel is responsible for bringing together complex solutions and various combinations of products and services across ITS. He works on large bids and has broad knowledge of the wide range of value propositions across the ITS domain. He has excellent knowledge of the ITS BU’s and can direct enquiries and opportunities to the right place to be serviced. He maintains a database of marketing and other collateral from the BU’s and uses this to build complex proposals and big bids. He liaises closely with the bid office and also acts as a conduit between the CSO and the ITS BU’s. Although he sits in Digital Edge, Fazel operates right across the ITS division.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Fazel-min.jpg",
@@ -204,7 +204,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Digital Development Lead", /* 11 */
+            "department": "Digital Development", /* 11 */
             "name": "Liziwe Maseko",
             "description": "Liziwe is the ITSD point of contact for all things development related. She manages a team of architects and developers with development skills in a wise range of programming languages. These teams work on site at BCX customers developing and maintaining applications. They develop across a wide range of platforms using both waterfall and agile methodologies. Liziwe’steam are also responsible for mobile app development.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Liziwe-min.jpg",
@@ -218,21 +218,21 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Embedded Integration Lead",
+            "department": "Embedded Integration",
             "name": "Trevlyn Chetty",
             "description": "Trevlyn  leads the integration team who are responsible for integrating applications and data across different domains. Trevlyn  and his team have considerable experience in OEM integration platforms and the development of API’s to facilitate the exchange of data across different platforms and applications. In today’s data-driven world, interfacing applications to other applications and bringing information seamlessly to the customer will require increasing amounts of embedded integration.",
             "imageUrl": "",
             "alternate": {
                 "department": "Embedded Integration Alternate",
                 "name": "Tyron Ramgath",
-                "description": "Tyron is an experienced integration project manager who spends much of his time on site managing customer integration projects. Tyron comes from a xxxxxxxxbackground and....(please expand and supplement)",
+                "description": "Tyron is an experienced integration project manager who spends much of his time on site managing customer integration projects.",
                 "imageUrl": "",
                 "alternate": ""
             }
         },
         
         {
-            "department": "Data Insights Lead", /* 13 */
+            "department": "Data Insights", /* 13 */
             "name": "Stefan Steffen",
             "description": "",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/stefan-min.jfif",
@@ -246,7 +246,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Digital Innovation Lead",
+            "department": "Digital Innovation",
             "name": "Vikash Ramharuk",
             "description": "Vikash has vast technical knowledge and is the Digital Edge lead for Innovation. He currently runs the RPA business within Digital Edge, but also applies his technical expertise across the ITS domain, being involved in several “special projects” including Retail platforms and other ad hoc initiatives. Vikash has consulting experience and a history in robotic process automation and essentially functions in a CTO style role for ITS. He is also responsible for the incubation of new technologies and acts in an advisory capacity to BCX customers in the technical domain.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Vikash-min.jpg",
@@ -259,7 +259,7 @@ export class StructureComponent implements OnInit {
             }
         },
         {
-            "department": "RPA Lead",
+            "department": "RPA",
             "name": "Kerushan Naidoo",
             "description": "Kerushan is a founding member of the Digital Edge Robotic Process Automation (RPA) unit and is experienced in the end to end rollout of RPA at customers. He has setup and managed the first RPA projects delivered by the BCX capability and has been key in building its capacity. He is also experienced in consulting on RPA and technology strategy. He is customer-facing and has the capability to present to prospective customers on RPA.",
             "imageUrl": "",
@@ -273,7 +273,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Chatbot Lead",
+            "department": "Chatbot",
             "name": "Michael Barnard",
             "description": "Michael is currently managing this incubating business whilst a manager is being appointed. Michael manages the liaison with several chatbot engine vendors and also oversees the current chatbot projects at customers. BCX recently acquired the IBM Watson chatbot engine and are developing skills in that domain.",
             "imageUrl": "",
@@ -301,7 +301,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "SAP CoE Lead", /* 18 */
+            "department": "SAP CoE", /* 18 */
             "name": "Lucy Mathosa",
             "description": "Lucy heads up the SAP OEM business which has a dominant market position especially in the retail vertical. Lucy uses her xxxxxbackground to lead the SAP enterprise unit as it transitions the SAP customer base to the SAP cloud offerings. (to be expanded)",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Lucy-min.jpg",
@@ -315,7 +315,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Microsoft CoE Lead", /*19 */
+            "department": "Microsoft CoE", /*19 */
             "name": "Busi Moale",
             "description": ".",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Busi-min.jpg",
@@ -328,9 +328,9 @@ export class StructureComponent implements OnInit {
             }
         },
         {
-            "department": "Oracle CoE Lead",/* 20 */
+            "department": "Oracle CoE",/* 20 */
             "name": "Busi Moale",
-            "description": "Busi is the leader of the Oracle OEM business unit which combines two Oracle businesses that were acquired by BCX. One part of this unit consists of a more traditional business focussed on the Oracle database side of things, while the other part specialises in ..... (expand here). The main focus of this business lies in the deployment of Oracle software across the enterprise.",
+            "description": "Busi is the leader of the Oracle OEM business unit which combines two Oracle businesses that were acquired by BCX. The main focus of this business lies in the deployment of Oracle software across the enterprise.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Busi.jpg",
             "alternate": {
                 "department": "Oracle CoE Alternate",
@@ -442,7 +442,7 @@ export class StructureComponent implements OnInit {
         {
             "department": "Smart Payroll",
             "name": "Daleen Meinhardt",
-            "description": "Daleenis responsible for leading the Smart Payroll unit, that deploys payroll solutions into BCX customers. This unit.....(what does it do) and Daleenand her team are focussed on growing this business and extending the footprint of BPO customers.",
+            "description": "Daleenis responsible for leading the Smart Payroll unit, that deploys payroll solutions into BCX customers. Daleen and her team are focussed on growing this business and extending the footprint of BPO customers.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Daleen-min.jpg",
             "alternate": {
                 "department": "",
