@@ -22,7 +22,8 @@ export class StructureComponent implements OnInit {
   	 "department": "",
   	 "name": "",
   	 "description": "",
-  	 "imageUrl" : ""
+  	 "imageUrl" : "",
+  	 "alternate": {}
   }
 
   showMe(i) {
@@ -36,6 +37,10 @@ export class StructureComponent implements OnInit {
      }
      else {
       this.cardprofile.imageUrl = "https://docs.atlassian.com/aui/8.0.2/docs/images/avatar-person.svg";   
+     }
+
+     if (this.employees[i].alternate) {
+        this.cardprofile.alternate = this.employees[i].alternate;
      } 
   }
 
@@ -176,7 +181,7 @@ export class StructureComponent implements OnInit {
         
         {
             "department": "Digital Innovation Lead",
-            "name": ": Vikash Ramharuk",
+            "name": "Vikash Ramharuk",
             "description": "Vikash has vast technical knowledge and is the Digital Edge lead for Innovation. He currently runs the RPA business within Digital Edge, but also applies his technical expertise across the ITS domain, being involved in several “special projects” including Retail platforms and other ad hoc initiatives. Vikash has consulting experience and a history in robotic process automation and essentially functions in a CTO style role for ITS. He is also responsible for the incubation of new technologies and acts in an advisory capacity to BCX customers in the technical domain.",
             "imageUrl": "",
             "alternate": {
@@ -349,7 +354,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Smart Fuel",
+            "department": "Smart Fuel", /* 27 */
             "name": "Deon Jacobs",
             "description": "Responsible for the development, implementation and overall growth strategy of the Fuels business within BCX. To explore new markets and sectors that will enhance our position as a market leader in the Fuel site systems environment. E2E solution provider in Forecourt automation and Site systems. Wet Stock Management solutions that include the supply and maintenance of fuel storage, dispensing and measuring equipment. Integrated site systems that include Point of Sale, Back office , integrated payments and Head office connectivity solutions.",
             "imageUrl": "",
