@@ -342,7 +342,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Application Outsource CoE Lead", /* 21 */
+            "department": "Application Outsource CoE", /* 21 */
             "name": "Shamalan Soobiah",
             "description": "Shamalan brings vast enterprise IT knowledge and consulting experience to bear and is caretaking the EAS. He has wide knowledge and intellectual property across the OEM space and manages the TGIT  outsource as well as the BCX Application Outsource business. Shamalan keeps the Telkom Group IT machine running like well-oiled machine and spends his time managing the many challenges this brings.",
             "imageUrl": "",
@@ -359,7 +359,7 @@ export class StructureComponent implements OnInit {
             "department": "Smart Municipal Solutions", /* 22 */
             "name": "Modise Nyawane",
             "description": "Modise is responsible for managing this business which is an own-IP operation that has deployed a municipal financial application called Solar across a major share of South African municipalities. This software was developed by BCX many years ago and is a leader in its field. The Solar software runs in 63 municipalities and two metros currently, and the application is currently being modernised.",
-            "imageUrl": "",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Modise-min.jpg",
             "alternate": {
                 "department": "Smart Municipal Solutions Alternate",
                 "name": "Potso Mohajane",
@@ -405,7 +405,7 @@ export class StructureComponent implements OnInit {
             "alternate": {
                 "department": "Smart IoT Alternate",
                 "name": "Manie Boshoff",
-                "description": "Manie comes from a xxxxbackground and plays an important role in the Smart IoT business in a xxxcapacity. He is mainly focussed on the Sasol account where he manages the delivery of various projects and programmes across the Sasol plants. Sasol is a major customer of Smart monitoring where BCX has....(expand here)",
+                "description": "",
                 "imageUrl": "",
                 "alternate": ""
             }
