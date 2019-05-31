@@ -139,7 +139,7 @@ export class StructureComponent implements OnInit {
         },
         {
             "department": "Digital Edge",
-            "name": "Michael Barnard",
+            "name": "Michael Barnard (acting)",
             "description": "Michael is currently assisting in various areas of Digital Edge in a caretaking capacity until a ME is appointed. He is involved with the RPA and chatbot businesses, as well as digital transformation consulting. He represents Digital Edge in customer facing engagements, working with the CSO. He is collaborating with the CSO to develop vertical industry frameworks.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Michael-min.jpg",
             "alternate": {
@@ -288,8 +288,8 @@ export class StructureComponent implements OnInit {
         
         {
             "department": "Enterprise Application Solutions",/* 17 */
-            "name": "Shamalan Soobiah",
-            "description": "Shamalan brings vast enterprise IT knowledge and consulting experience to bear and is caretaking the EAS. He has wide knowledge and intellectual property across the OEM space and manages the TGIT  outsource as well as the BCX Application Outsource business.",
+            "name": "Shamalan Soobiah (acting)",
+            "description": "Shamalan brings vast enterprise IT knowledge and consulting experience to bear and is caretaking the EAS domain. He has wide knowledge and intellectual property across the OEM space and manages the TGIT outsource as well as the BCX Application Outsource business.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Shamalan-min.jpg",
             "alternate": {
                 "department": "Enterprise Application Solutions Alternate",
@@ -446,7 +446,7 @@ export class StructureComponent implements OnInit {
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Daleen-min.jpg",
             "alternate": {
                 "department": "",
-                "name": "",
+                "name": "Nicky Easton",
                 "description": "",
                 "imageUrl": "",
                 "alternate": ""
