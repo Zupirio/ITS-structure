@@ -29,7 +29,13 @@ export class StructureComponent implements OnInit {
   	 "name": "",
   	 "description": "",
   	 "imageUrl" : "",
-  	 "alternate": {}
+  	 "alternate": {
+  	 	    "department": "",
+            "name": "",
+            "description": "",
+            "imageUrl": "",
+            "alternate": ""
+  	 }
   }
 
   showMe(i) {
@@ -45,19 +51,8 @@ export class StructureComponent implements OnInit {
       this.cardprofile.imageUrl = "https://docs.atlassian.com/aui/8.0.2/docs/images/avatar-person.svg";   
      }
 
-  	if (this.employees[i].alternate !== "none") {
-     	this.cardprofile.alternate = this.employees[i].alternate;
-  	}
-  	else {
-  		var obj =  {
-                "department": "",
-                "name": "",
-                "description": "",
-                "imageUrl": "",
-                "alternate": ""
-            }
-  		this.cardprofile.alternate = obj;
-  	}
+  	this.cardprofile.alternate.name = this.employees[i].alternate.name;
+  	this.cardprofile.alternate.description = this.employees[i].alternate.description;
     
   }
 
@@ -81,14 +76,26 @@ export class StructureComponent implements OnInit {
             "name": "Sibongile Raikane",
             "description": "Sibongile manages Vish Rajpal’s diary and day to day activities and is the executive administrator and executive liaison with the Exco and the ITS leadership team. Sibongile is the glue that brings all the BU’s across ITS together and also coordinates activities that span across the BU’s of ITS. She is a pivotal link between Vish’s office and the ITS Leadership Team.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Sibongile.jpg", /* 1 */
-            "alternate": "none"
+            "alternate": {
+                "department": "",
+                "name": "",
+                "description": "",
+                "imageUrl": "",
+                "alternate": ""
+            }
         },
         {
             "department": "Strategic Solutions",/* 2 */
             "name": "Leon Gerber",
             "description": "Leon provides executive support to Vish Rajpal, focussing on the Cloud and Infrastructure domain, and assists with various other strategic projects on a case by case basis as required, including process improvement and other cross-divisional initiatives. The essence of all the initiatives engaged is to deliver on the ITS business plan by leveraging and enhancing current capability but also to identify opportunities and partnerships to achieve stepped changes. ",
             "imageUrl": "",
-            "alternate": "none"
+            "alternate": {
+                "department": "",
+                "name": "",
+                "description": "",
+                "imageUrl": "",
+                "alternate": ""
+            }
 
         },
         {
@@ -96,42 +103,78 @@ export class StructureComponent implements OnInit {
             "name": "Michael Barnard",
             "description": "Michael provides executive support to Vish Rajpal, focussing on the Applications domain, and assists with various other strategic projects on a case by case basis as required, including process improvement and other cross-divisional initiatives.",
             "imageUrl": "",
-            "alternate": "none"
+            "alternate": {
+                "department": "",
+                "name": "",
+                "description": "",
+                "imageUrl": "",
+                "alternate": ""
+            }
         },
         {
             "department": "Marketing & Communications",/* 4 */
             "name": "Nikhil Ramlal",
             "description": "Nikhil is the liaison with BCX Marketing and is the custodian of marketing collateral and GTM planning. He assists with campaigns across the BU’s and is also involved with innovation and digital marketing. He is the creative support for ITS.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Nik.jpg",
-            "alternate": "none"
+            "alternate": {
+                "department": "",
+                "name": "",
+                "description": "",
+                "imageUrl": "",
+                "alternate": ""
+            }
         },
         {
             "department": "Commercial Executive",/* 5 */
             "name": "Willem Stigling",
             "description": "Willem provides commercial support for Vish Rajpal and the ITS leadership team. He is involved with commercial contracting as well as advising on large deal commercials. Closely linked to the financial function, Willem provides risk and governance support to the team.",
             "imageUrl": "",
-            "alternate": "none"
+            "alternate": {
+                "department": "",
+                "name": "",
+                "description": "",
+                "imageUrl": "",
+                "alternate": ""
+            }
         },
         {
             "department": "Digital Edge",
             "name": "Michael Barnard",
             "description": "Michael is currently assisting in various areas of Digital Edge in a caretaking capacity until a ME is appointed. He is involved with the RPA and chatbot businesses, as well as digital transformation consulting. He represents Digital Edge in customer facing engagements, working with the CSO. He is collaborating with the CSO to develop vertical industry frameworks.",
             "imageUrl": "",
-            "alternate": "none"
+            "alternate": {
+                "department": "",
+                "name": "",
+                "description": "",
+                "imageUrl": "",
+                "alternate": ""
+            }
         },
         {
             "department": "Digital Edge Administrator",
             "name": "Constance Mochalatjie",
             "description": "Connie is the administrator for Digital Edge and assists Michael and the rest of the leadership team with admin and other tasks that cross the domain. She maintains a list of BU owners in ITS and also assists various of the BU leaders with various ad hoc tasks. She also coordinates cross BU activities from time to time.",
             "imageUrl": "",
-            "alternate": "none"
+            "alternate": {
+                "department": "",
+                "name": "",
+                "description": "",
+                "imageUrl": "",
+                "alternate": ""
+            }
         },
         {
             "department": "Digital Transformation",
             "name": "Karen Luyt",
             "description": "Karen is the lead for Digital Transformation Consulting. She develops customer digital transformation journeys and roadmaps, and maintains the related digital transformation IP and consulting frameworks. Karen is customer facing and consults with customers on their digital transformation journey, as the “thin edge of the wedge”, to assist in generating downstream opportunities for the rest of BCX. She is also involved with CSO in the development of vertical industry frameworks (VIF’s) and designs value propositions using BCX and partner assets to address Industry needs. She is passionate about the digitally connected workplace and how this links to the employee value proposition (EVP) and is working on strategic initiatives in that domain.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Karen-min.jpg",
-            "alternate": "none"
+            "alternate": {
+                "department": "",
+                "name": "",
+                "description": "",
+                "imageUrl": "",
+                "alternate": ""
+            }
         },
         {
             "department": "Cloud Consulting Lead", /* 9 */
@@ -276,7 +319,13 @@ export class StructureComponent implements OnInit {
             "name": "Busi Moale",
             "description": "Andrew’s role within the Microsoft business is to....(expand here). He has a strong background in...(expand here) and will use this to do x and y.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Busi.jpg",
-            "alternate": "none"
+            "alternate": {
+                "department": "",
+                "name": "",
+                "description": "",
+                "imageUrl": "",
+                "alternate": ""
+            }
         },
         {
             "department": "Oracle CoE Lead",/* 20 */
@@ -395,7 +444,13 @@ export class StructureComponent implements OnInit {
             "name": "Daleen Meinhardt",
             "description": "Daleenis responsible for leading the Smart Payroll unit, that deploys payroll solutions into BCX customers. This unit.....(what does it do) and Daleenand her team are focussed on growing this business and extending the footprint of BPO customers.",
             "imageUrl": "",
-            "alternate": "none"
+            "alternate": {
+                "department": "",
+                "name": "",
+                "description": "",
+                "imageUrl": "",
+                "alternate": ""
+            }
         },
         {
             "department": "Enterprise Cloud & Infrastructure Solutions",
@@ -486,7 +541,13 @@ export class StructureComponent implements OnInit {
             "name": "Ettienne Oosthuizen",
             "description": "",
             "imageUrl": "",
-            "alternate": "none"
+            "alternate": {
+                "department": "",
+                "name": "",
+                "description": "",
+                "imageUrl": "",
+                "alternate": ""
+            }
         },
         {
             "department": "Coastal Operations",
@@ -507,7 +568,13 @@ export class StructureComponent implements OnInit {
             "name": "Des Poulter",
             "description": "",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Des-min.jpg",
-            "alternate": "none"
+            "alternate": {
+                "department": "",
+                "name": "",
+                "description": "",
+                "imageUrl": "",
+                "alternate": ""
+            }
         },
         
     ];
