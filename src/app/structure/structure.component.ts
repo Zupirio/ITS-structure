@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-structure',
@@ -12,6 +13,11 @@ export class StructureComponent implements OnInit {
   ngOnInit() {
   }
 
+   @HostListener('window:popstate', ['$event'])
+  onPopState(event) {
+   		document.getElementById("modal-close").click();
+
+  }
 
   onResize() {
 
@@ -39,9 +45,9 @@ export class StructureComponent implements OnInit {
       this.cardprofile.imageUrl = "https://docs.atlassian.com/aui/8.0.2/docs/images/avatar-person.svg";   
      }
 
-     if (this.employees[i].alternate) {
-        this.cardprofile.alternate = this.employees[i].alternate;
-     } 
+  
+     this.cardprofile.alternate = this.employees[i].alternate;
+    
   }
 
 
