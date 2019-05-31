@@ -315,7 +315,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Smart IoT",
+            "department": "Smart IoT", /* 25 */
             "name": "Louis van Wyk",
             "description": "Louis runs the BCX industrial solutions business unit that deploys industrial solutions to South Africa’s manufacturing plants and industry. They are an experienced team of engineering type resources that work with leading industrial OEMS such as W onderware, Siemens and the like, to deploy hardware and software solutions at customers such as Sasol and (expand here). Louis has an engineering background and leads a team of technical experts delivering various solutions, including SCADA and MES solutions (correct or expand here)",
             "imageUrl": "",
