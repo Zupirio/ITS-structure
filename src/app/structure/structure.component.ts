@@ -29,7 +29,14 @@ export class StructureComponent implements OnInit {
   	 "name": "",
   	 "description": "",
   	 "imageUrl" : "",
-  	 "alternate": {}
+  	 "alternate": {
+  	 	 "department": "",
+         "name": "",
+         "description": "",
+         "imageUrl": "",
+         "alternate": ""
+
+  	 }
   }
 
   showMe(i) {
@@ -45,8 +52,9 @@ export class StructureComponent implements OnInit {
       this.cardprofile.imageUrl = "https://docs.atlassian.com/aui/8.0.2/docs/images/avatar-person.svg";   
      }
 
-  
-     this.cardprofile.alternate = this.employees[i].alternate;
+  	if (this.employee[i].alternate !== "") {
+     	this.cardprofile.alternate = this.employees[i].alternate;
+  	}
     
   }
 
@@ -174,12 +182,12 @@ export class StructureComponent implements OnInit {
         {
             "department": "Data Insights Lead", /* 13 */
             "name": "Stefan Steffen",
-            "description": "Hello",
+            "description": "",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/stefan-min.jfif",
             "alternate": {
                 "department": "Data Insights Alternate",
-                "name": "TBC",
-                "description": "HEllo",
+                "name": "",
+                "description": "",
                 "imageUrl": "",
                 "alternate": ""
             }
@@ -268,7 +276,7 @@ export class StructureComponent implements OnInit {
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Busi.jpg",
             "alternate": {
                 "department": "Oracle CoE Alternate",
-                "name": "TBC",
+                "name": "",
                 "description": "(Busi please supply a name and description here)",
                 "imageUrl": "",
                 "alternate": ""
@@ -366,7 +374,7 @@ export class StructureComponent implements OnInit {
             "imageUrl": "",
             "alternate": {
                 "department": "Smart Fuel Alternate",
-                "name": "TBC",
+                "name": "",
                 "description": "Assists Deon with Smart Fuel development, implementation and growth strategy.",
                 "imageUrl": "",
                 "alternate": ""
@@ -397,12 +405,12 @@ export class StructureComponent implements OnInit {
         {
             "department": "Customer First Centre", /* 30 */
             "name": "Andrina Oliphant",
-            "description": "Hello",
+            "description": "",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Andrina-min.jpg",
             "alternate": {
                 "department": "Customer First Centre Alternate",
                 "name": "Tshepo Khabele",
-                "description": "Helo",
+                "description": "",
                 "imageUrl": "",
                 "alternate": ""
             }
@@ -411,11 +419,11 @@ export class StructureComponent implements OnInit {
         {
             "department": "Service Management", /* 31 */
             "name": "Frans Basson",
-            "description": "Hello",
+            "description": "",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Frans-min.jpg",
             "alternate": {
                 "department": "Service Management Alternate",
-                "name": "TBC",
+                "name": "",
                 "description": "",
                 "imageUrl": "",
                 "alternate": ""
@@ -425,12 +433,12 @@ export class StructureComponent implements OnInit {
         {
             "department": "Cloud & Infrastructure Services", /* 32 */
             "name": "Seelan Thathiah",
-            "description": "Hello",
+            "description": "",
             "imageUrl": "",
             "alternate": {
                 "department": "Cloud & Infrastructure Services Alternate",
                 "name": "Goitsemang Mthethwa",
-                "description": "Hello",
+                "description": "",
                 "imageUrl": "",
                 "alternate": ""
             }
@@ -439,12 +447,12 @@ export class StructureComponent implements OnInit {
         {
             "department": "Monitoring CoE", /* 33 */
             "name": "Neil Claassens",
-            "description": "Hello",
+            "description": "",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Neil.jpg",
             "alternate": {
                 "department": "Monitoring CoE Alternate",
                 "name": "Pieter van Blommestein",
-                "description": "Hello",
+                "description": "",
                 "imageUrl": "",
                 "alternate": ""
             }
@@ -453,12 +461,12 @@ export class StructureComponent implements OnInit {
         {
             "department": "Intergr8",
             "name": "Jan Roux",
-            "description": "Hello",
+            "description": "",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Jan.jpg",
             "alternate": {
                 "department": "Nerve Centre Alternate",
                 "name": "Eddie MacFarlane",
-                "description": "Hello",
+                "description": "",
                 "imageUrl": "",
                 "alternate": ""
             }
@@ -467,19 +475,19 @@ export class StructureComponent implements OnInit {
         {
             "department": "Internal IT Operations",
             "name": "Ettienne Oosthuizen",
-            "description": "Hello",
+            "description": "",
             "imageUrl": "",
             "alternate": ""
         },
         {
             "department": "Coastal Operations",
             "name": "Sam Roy",
-            "description": "Hello",
+            "description": "",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Sam.jpg",
             "alternate": {
                 "department": "Coastal Operations Alternate",
                 "name": "Navin Radhalal",
-                "description": "Hello",
+                "description": "",
                 "imageUrl": "",
                 "alternate": ""
             }
@@ -488,7 +496,7 @@ export class StructureComponent implements OnInit {
         {
             "department": "Field Service Enablement",
             "name": "Des Poulter",
-            "description": "Hello",
+            "description": "",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Des-min.jpg",
             "alternate": ""
         },
