@@ -49,7 +49,14 @@ export class StructureComponent implements OnInit {
      	this.cardprofile.alternate = this.employees[i].alternate;
   	}
   	else {
-  		this.cardprofile.alternate = {"name":""};
+  		var obj =  {
+                "department": "",
+                "name": "",
+                "description": "",
+                "imageUrl": "",
+                "alternate": ""
+            }
+  		this.cardprofile.alternate = obj;
   	}
     
   }
