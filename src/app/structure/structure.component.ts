@@ -113,7 +113,7 @@ export class StructureComponent implements OnInit {
             "department": "Digital Transformation",
             "name": "Karen Luyt",
             "description": "Karen is the lead for Digital Transformation Consulting. She develops customer digital transformation journeys and roadmaps, and maintains the related digital transformation IP and consulting frameworks. Karen is customer facing and consults with customers on their digital transformation journey, as the “thin edge of the wedge”, to assist in generating downstream opportunities for the rest of BCX. She is also involved with CSO in the development of vertical industry frameworks (VIF’s) and designs value propositions using BCX and partner assets to address Industry needs. She is passionate about the digitally connected workplace and how this links to the employee value proposition (EVP) and is working on strategic initiatives in that domain.",
-            "imageUrl": "",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Karen-min.jpg",
             "alternate": ""
         },
         {
@@ -175,7 +175,7 @@ export class StructureComponent implements OnInit {
             "department": "Data Insights Lead", /* 13 */
             "name": "Stefan Steffen",
             "description": "Hello",
-            "imageUrl": "",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/stefan-min.jfif",
             "alternate": {
                 "department": "Data Insights Alternate",
                 "name": "TBC",
@@ -398,7 +398,7 @@ export class StructureComponent implements OnInit {
             "department": "Customer First Centre", /* 30 */
             "name": "Andrina Oliphant",
             "description": "Hello",
-            "imageUrl": "",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Andrina-min.jpg",
             "alternate": {
                 "department": "Customer First Centre Alternate",
                 "name": "Tshepo Khabele",
@@ -412,7 +412,7 @@ export class StructureComponent implements OnInit {
             "department": "Service Management", /* 31 */
             "name": "Frans Basson",
             "description": "Hello",
-            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Frans.jpg",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Frans-min.jpg",
             "alternate": {
                 "department": "Service Management Alternate",
                 "name": "TBC",
@@ -489,7 +489,7 @@ export class StructureComponent implements OnInit {
             "department": "Field Service Enablement",
             "name": "Des Poulter",
             "description": "Hello",
-            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Des.jpg",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Des-min.jpg",
             "alternate": ""
         },
         
