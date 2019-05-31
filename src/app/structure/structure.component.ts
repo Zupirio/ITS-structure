@@ -161,7 +161,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Data Insights Lead",
+            "department": "Data Insights Lead", /* 13 */
             "name": "Stefan Steffen",
             "description": "Hello",
             "imageUrl": "",
@@ -176,10 +176,16 @@ export class StructureComponent implements OnInit {
         
         {
             "department": "Digital Innovation Lead",
-            "name": "Merlin Naidoo",
-            "description": "(To be completed)",
+            "name": ": Vikash Ramharuk",
+            "description": "Vikash has vast technical knowledge and is the Digital Edge lead for Innovation. He currently runs the RPA business within Digital Edge, but also applies his technical expertise across the ITS domain, being involved in several “special projects” including Retail platforms and other ad hoc initiatives. Vikash has consulting experience and a history in robotic process automation and essentially functions in a CTO style role for ITS. He is also responsible for the incubation of new technologies and acts in an advisory capacity to BCX customers in the technical domain.",
             "imageUrl": "",
-            "alternate": ""
+            "alternate": {
+                "department": "Digital Innovation Alternate",
+                "name": "Kerushan Naidoo",
+                "description": "Kerushan was a founder member of the Digital Edge Robotic Process Automation (RPA) unit and is experienced in the end to end rollout of RPA at customers. He project managed the first RPA projects delivered by the RPA capability and has been key in building this capacity. He is also experienced in consulting on RPA and business development. He is customer-facing and has the capability to present to prospective customers on RPA.",
+                "imageUrl": "",
+                "alternate": ""
+            }
         },
         {
             "department": "RPA Lead",
@@ -238,7 +244,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Microsoft CoE Lead", /* 20 */
+            "department": "Microsoft CoE Lead", /*19 */
             "name": "Busi Moale",
             "description": "Andrew’s role within the Microsoft business is to....(expand here). He has a strong background in...(expand here) and will use this to do x and y.",
             "imageUrl": "",
@@ -406,7 +412,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Cloud & Infrastructure Services",
+            "department": "Cloud & Infrastructure Services", /* 32 */
             "name": "Seelan Thathiah",
             "description": "Hello",
             "imageUrl": "",
@@ -420,7 +426,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Monitoring CoE",
+            "department": "Monitoring CoE", /* 33 */
             "name": "Neil Claassens",
             "description": "Hello",
             "imageUrl": "",
@@ -434,7 +440,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Nerve Centre",
+            "department": "Intergr8",
             "name": "Jan Roux",
             "description": "Hello",
             "imageUrl": "",
