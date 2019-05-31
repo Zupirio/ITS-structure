@@ -12,6 +12,12 @@ export class StructureComponent implements OnInit {
   ngOnInit() {
   }
 
+
+  onResize() {
+	
+//line.attr('x1',x1).attr('y1',y1).attr('x2',x2).attr('y2',y2);
+  }
+
   cardprofile = {
   	 "department": "",
   	 "name": "",
@@ -24,13 +30,13 @@ export class StructureComponent implements OnInit {
   	this.cardprofile.department = this.employees[i].department;
   	this.cardprofile.name = this.employees[i].name;
   	this.cardprofile.description = this.employees[i].description;
-/*
+
     if (this.employees[i].imageUrl) {
         this.cardprofile.imageUrl = this.employees[i].imageUrl;
      }
      else {
       this.cardprofile.imageUrl = "https://docs.atlassian.com/aui/8.0.2/docs/images/avatar-person.svg";   
-     } */
+     } 
   }
 
 
@@ -67,14 +73,14 @@ export class StructureComponent implements OnInit {
         {
             "department": "Manager Marketing & Communications",
             "name": "Nikhil Ramlal",
-            "description": "Nikhil is the liaison with BCX Marketing and is the custodian of marketing collateral and GTM planning. He assists with campaigns across the BU’s and is also involved with innovation and digital marketing. He is the creative support for ITS, and develops apps for use within ITS for various projects.",
+            "description": "Nikhil is the liaison with BCX Marketing and is the custodian of marketing collateral and GTM planning. He assists with campaigns across the BU’s and is also involved with innovation and digital marketing. He is the creative support for ITS.",
             "imageUrl": "",
             "alternate": ""
         },
         {
             "department": "Commercial Executive",
             "name": "Willem Stigling",
-            "description": "Willem provides commercial support for Vish Rajpal and the ITS leadership team. He is involved with commercial contracting as well as advising on large deal commercials. Closely linked to the financial function, W illem provides risk and governance support to the team.",
+            "description": "Willem provides commercial support for Vish Rajpal and the ITS leadership team. He is involved with commercial contracting as well as advising on large deal commercials. Closely linked to the financial function, Willem provides risk and governance support to the team.",
             "imageUrl": "",
             "alternate": ""
         },
