@@ -57,7 +57,7 @@ export class StructureComponent implements OnInit {
             "department": "Executive Assistant",
             "name": "Sibongile Raikane",
             "description": "Sibongile manages Vish Rajpal’s diary and day to day activities and is the executive administrator and executive liaison with the Exco and the ITS leadership team. Sibongile is the glue that brings all the BU’s across ITS together and also coordinates activities that span across the BU’s of ITS. She is a pivotal link between Vish’s office and the ITS Leadership Team.",
-            "imageUrl": "", /* 1 */
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Sibongile.jpg", /* 1 */
             "alternate": ""
         },
         {
@@ -79,7 +79,7 @@ export class StructureComponent implements OnInit {
             "department": "Manager Marketing & Communications",/* 4 */
             "name": "Nikhil Ramlal",
             "description": "Nikhil is the liaison with BCX Marketing and is the custodian of marketing collateral and GTM planning. He assists with campaigns across the BU’s and is also involved with innovation and digital marketing. He is the creative support for ITS.",
-            "imageUrl": "",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Nik.jpg",
             "alternate": ""
         },
         {
@@ -127,7 +127,7 @@ export class StructureComponent implements OnInit {
             "department": "Envisioning Lead", /* 10 */
             "name": "Fazel Ally",
             "description": "A seasoned solution architect, Fazel is responsible for bringing together complex solutions and various combinations of products and services across ITS. He works on large bids and has broad knowledge of the wide range of value propositions across the ITS domain. He has excellent knowledge of the ITS BU’s and can direct enquiries and opportunities to the right place to be serviced. He maintains a database of marketing and other collateral from the BU’s and uses this to build complex proposals and big bids. He liaises closely with the bid office and also acts as a conduit between the CSO and the ITS BU’s. Although he sits in Digital Edge, Fazel operates right across the ITS division.",
-            "imageUrl": "",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Fazel.jpg",
             "alternate": {
                 "department": "Envisioning Alternate",
                 "name": "Jonathan Eason",
@@ -141,7 +141,7 @@ export class StructureComponent implements OnInit {
             "department": "Digital Development Lead", /* 11 */
             "name": "Liziwe Maseko",
             "description": "Liziwe is the ITSD point of contact for all things development related. She manages a team of architects and developers with development skills in a wise range of programming languages. These teams work on site at BCX customers developing and maintaining applications. They develop across a wide range of platforms using both waterfall and agile methodologies. Liziwe’steam are also responsible for mobile app development.",
-            "imageUrl": "",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Liziwe.jpg",
             "alternate": {
                 "department": "Digital Development Alternate",
                 "name": "Kamlan Naidoo",
@@ -183,7 +183,7 @@ export class StructureComponent implements OnInit {
             "department": "Digital Innovation Lead",
             "name": "Vikash Ramharuk",
             "description": "Vikash has vast technical knowledge and is the Digital Edge lead for Innovation. He currently runs the RPA business within Digital Edge, but also applies his technical expertise across the ITS domain, being involved in several “special projects” including Retail platforms and other ad hoc initiatives. Vikash has consulting experience and a history in robotic process automation and essentially functions in a CTO style role for ITS. He is also responsible for the incubation of new technologies and acts in an advisory capacity to BCX customers in the technical domain.",
-            "imageUrl": "",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Vikash.jpg",
             "alternate": {
                 "department": "Digital Innovation Alternate",
                 "name": "Kerushan Naidoo",
@@ -229,7 +229,7 @@ export class StructureComponent implements OnInit {
                 "department": "Enterprise Application Solutions Alternate",
                 "name": "Busi Moale",
                 "description": "Busi runs two of the OEM vendor businesses in Microsoft and Oracle and as such has considerable experience in enterprise application solutions. She can consult at any level of the organisation and also has vast public sector knowledge.",
-                "imageUrl": "",
+                "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Busi.jpg",
                 "alternate": ""
             }
         },
@@ -252,14 +252,14 @@ export class StructureComponent implements OnInit {
             "department": "Microsoft CoE Lead", /*19 */
             "name": "Busi Moale",
             "description": "Andrew’s role within the Microsoft business is to....(expand here). He has a strong background in...(expand here) and will use this to do x and y.",
-            "imageUrl": "",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Busi.jpg",
             "alternate": ""
         },
         {
             "department": "Oracle CoE Lead",/* 20 */
             "name": "Busi Moale",
             "description": "Busi is the leader of the Oracle OEM business unit which combines two Oracle businesses that were acquired by BCX. One part of this unit consists of a more traditional business focussed on the Oracle database side of things, while the other part specialises in ..... (expand here). The main focus of this business lies in the deployment of Oracle software across the enterprise.",
-            "imageUrl": "",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Busi.jpg",
             "alternate": {
                 "department": "Oracle CoE Alternate",
                 "name": "TBC",
@@ -306,7 +306,7 @@ export class StructureComponent implements OnInit {
                 "department": "Smart Retail Solutions Alternate Contact",
                 "name": "Deon Jacobs",
                 "description": "Deon is the alternate for Smart Retail as he long operated within Smart Retail, although he focusses on Smart Fuel these days. Deon has a wealth of experience in retail solutions from his previous role as ...(Expand here)",
-                "imageUrl": "",
+                "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Deon.jpg",
                 "alternate": ""
             }
         },
@@ -406,7 +406,7 @@ export class StructureComponent implements OnInit {
             "department": "Service Management", /* 31 */
             "name": "Frans Basson",
             "description": "Hello",
-            "imageUrl": "",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Frans.jpg",
             "alternate": {
                 "department": "Service Management Alternate",
                 "name": "TBC",
@@ -434,7 +434,7 @@ export class StructureComponent implements OnInit {
             "department": "Monitoring CoE", /* 33 */
             "name": "Neil Claassens",
             "description": "Hello",
-            "imageUrl": "",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Neil.jpg",
             "alternate": {
                 "department": "Monitoring CoE Alternate",
                 "name": "Pieter van Blommestein",
@@ -448,7 +448,7 @@ export class StructureComponent implements OnInit {
             "department": "Intergr8",
             "name": "Jan Roux",
             "description": "Hello",
-            "imageUrl": "",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Jan.jpg",
             "alternate": {
                 "department": "Nerve Centre Alternate",
                 "name": "Eddie MacFarlane",
@@ -469,7 +469,7 @@ export class StructureComponent implements OnInit {
             "department": "Coastal Operations",
             "name": "Sam Roy",
             "description": "Hello",
-            "imageUrl": "",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Sam.jpg",
             "alternate": {
                 "department": "Coastal Operations Alternate",
                 "name": "Navin Radhalal",
@@ -483,7 +483,7 @@ export class StructureComponent implements OnInit {
             "department": "Field Service Enablement",
             "name": "Des Poulter",
             "description": "Hello",
-            "imageUrl": "",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Des.jpg",
             "alternate": ""
         },
         
