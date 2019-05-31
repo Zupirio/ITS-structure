@@ -29,14 +29,7 @@ export class StructureComponent implements OnInit {
   	 "name": "",
   	 "description": "",
   	 "imageUrl" : "",
-  	 "alternate": {
-  	 	 "department": "",
-         "name": "",
-         "description": "",
-         "imageUrl": "",
-         "alternate": ""
-
-  	 }
+  	 "alternate": {}
   }
 
   showMe(i) {
@@ -52,8 +45,11 @@ export class StructureComponent implements OnInit {
       this.cardprofile.imageUrl = "https://docs.atlassian.com/aui/8.0.2/docs/images/avatar-person.svg";   
      }
 
-  	if (this.employee[i].alternate !== "") {
+  	if (this.employees[i].alternate !== "none") {
      	this.cardprofile.alternate = this.employees[i].alternate;
+  	}
+  	else {
+  		this.cardprofile.alternate = {"name":""};
   	}
     
   }
@@ -64,7 +60,7 @@ export class StructureComponent implements OnInit {
             "name": "Vish Rajpal",
             "description": "Vish is the BCX Exco member who leads the IT Solutions Division and drives the strategic objectives and KPI’s with his leadership team. Vish is also responsible for...",
             "imageUrl": "",
-            "alternate": ""
+            "alternate": "none"
         },
         {
             "imageurl": "data:image/jpeg;base64,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",
@@ -72,14 +68,14 @@ export class StructureComponent implements OnInit {
             "name": "Sibongile Raikane",
             "description": "Sibongile manages Vish Rajpal’s diary and day to day activities and is the executive administrator and executive liaison with the Exco and the ITS leadership team. Sibongile is the glue that brings all the BU’s across ITS together and also coordinates activities that span across the BU’s of ITS. She is a pivotal link between Vish’s office and the ITS Leadership Team.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Sibongile.jpg", /* 1 */
-            "alternate": ""
+            "alternate": "none"
         },
         {
             "department": "Strategic Solutions",/* 2 */
             "name": "Leon Gerber",
             "description": "Leon provides executive support to Vish Rajpal, focussing on the Cloud and Infrastructure domain, and assists with various other strategic projects on a case by case basis as required, including process improvement and other cross-divisional initiatives. The essence of all the initiatives engaged is to deliver on the ITS business plan by leveraging and enhancing current capability but also to identify opportunities and partnerships to achieve stepped changes. ",
             "imageUrl": "",
-            "alternate": ""
+            "alternate": "none"
 
         },
         {
@@ -87,42 +83,42 @@ export class StructureComponent implements OnInit {
             "name": "Michael Barnard",
             "description": "Michael provides executive support to Vish Rajpal, focussing on the Applications domain, and assists with various other strategic projects on a case by case basis as required, including process improvement and other cross-divisional initiatives.",
             "imageUrl": "",
-            "alternate": ""
+            "alternate": "none"
         },
         {
             "department": "Marketing & Communications",/* 4 */
             "name": "Nikhil Ramlal",
             "description": "Nikhil is the liaison with BCX Marketing and is the custodian of marketing collateral and GTM planning. He assists with campaigns across the BU’s and is also involved with innovation and digital marketing. He is the creative support for ITS.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Nik.jpg",
-            "alternate": ""
+            "alternate": "none"
         },
         {
             "department": "Commercial Executive",/* 5 */
             "name": "Willem Stigling",
             "description": "Willem provides commercial support for Vish Rajpal and the ITS leadership team. He is involved with commercial contracting as well as advising on large deal commercials. Closely linked to the financial function, Willem provides risk and governance support to the team.",
             "imageUrl": "",
-            "alternate": ""
+            "alternate": "none"
         },
         {
             "department": "Digital Edge",
             "name": "Michael Barnard",
             "description": "Michael is currently assisting in various areas of Digital Edge in a caretaking capacity until a ME is appointed. He is involved with the RPA and chatbot businesses, as well as digital transformation consulting. He represents Digital Edge in customer facing engagements, working with the CSO. He is collaborating with the CSO to develop vertical industry frameworks.",
             "imageUrl": "",
-            "alternate": ""
+            "alternate": "none"
         },
         {
             "department": "Digital Edge Administrator",
             "name": "Constance Mochalatjie",
             "description": "Connie is the administrator for Digital Edge and assists Michael and the rest of the leadership team with admin and other tasks that cross the domain. She maintains a list of BU owners in ITS and also assists various of the BU leaders with various ad hoc tasks. She also coordinates cross BU activities from time to time.",
             "imageUrl": "",
-            "alternate": ""
+            "alternate": "none"
         },
         {
             "department": "Digital Transformation",
             "name": "Karen Luyt",
             "description": "Karen is the lead for Digital Transformation Consulting. She develops customer digital transformation journeys and roadmaps, and maintains the related digital transformation IP and consulting frameworks. Karen is customer facing and consults with customers on their digital transformation journey, as the “thin edge of the wedge”, to assist in generating downstream opportunities for the rest of BCX. She is also involved with CSO in the development of vertical industry frameworks (VIF’s) and designs value propositions using BCX and partner assets to address Industry needs. She is passionate about the digitally connected workplace and how this links to the employee value proposition (EVP) and is working on strategic initiatives in that domain.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Karen-min.jpg",
-            "alternate": ""
+            "alternate": "none"
         },
         {
             "department": "Cloud Consulting Lead", /* 9 */
@@ -134,7 +130,7 @@ export class StructureComponent implements OnInit {
                 "name": "Matthew De Fine",
                 "description": "Coming from a background of solution architecture and digital innovation, Matthew is also involved in the BCX cloud consulting capability, advising BCX customers on all things cloud, and continuously improving and extending the BCX cloud consulting framework. He is customer-facing and performs a consulting role in Digital Edge, assisting customers with their complex journeys to the cloud, cloud migrations, and has a particular interest in the Amazon Web Services (AWS) domain, being an expert in that field. He also has broad knowledge of the global hyperscale cloud offerings and can compare and contrast these for customers.",
                 "imageUrl": "",
-                "alternate": ""
+                "alternate": "none"
             }
         },
         {
@@ -477,7 +473,7 @@ export class StructureComponent implements OnInit {
             "name": "Ettienne Oosthuizen",
             "description": "",
             "imageUrl": "",
-            "alternate": ""
+            "alternate": "none"
         },
         {
             "department": "Coastal Operations",
@@ -498,7 +494,7 @@ export class StructureComponent implements OnInit {
             "name": "Des Poulter",
             "description": "",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Des-min.jpg",
-            "alternate": ""
+            "alternate": "none"
         },
         
     ];
