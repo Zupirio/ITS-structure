@@ -14,7 +14,7 @@ export class StructureComponent implements OnInit {
 
 
   onResize() {
-	
+
 //line.attr('x1',x1).attr('y1',y1).attr('x2',x2).attr('y2',y2);
   }
 
@@ -41,7 +41,7 @@ export class StructureComponent implements OnInit {
 
 
   employees = [{
-            "department": "Chief of IT Solutions",
+            "department": "Chief of IT Solutions", /* 0 */
             "name": "Vish Rajpal",
             "description": "Vish is the BCX Exco member who leads the IT Solutions Division and drives the strategic objectives and KPI’s with his leadership team. Vish is also responsible for...",
             "imageUrl": "",
@@ -52,11 +52,11 @@ export class StructureComponent implements OnInit {
             "department": "Executive Assistant",
             "name": "Sibongile Raikane",
             "description": "Sibongile manages Vish Rajpal’s diary and day to day activities and is the executive administrator and executive liaison with the Exco and the ITS leadership team. Sibongile is the glue that brings all the BU’s across ITS together and also coordinates activities that span across the BU’s of ITS. She is a pivotal link between Vish’s office and the ITS Leadership Team.",
-            "imageUrl": "",
+            "imageUrl": "", /* 1 */
             "alternate": ""
         },
         {
-            "department": "Executive Support",
+            "department": "Strategic Solutions",/* 2 */
             "name": "Leon Gerber",
             "description": "Leon provides executive support to Vish Rajpal, focussing on the Cloud and Infrastructure domain, and assists with various other strategic projects on a case by case basis as required, including process improvement and other cross-divisional initiatives.",
             "imageUrl": "",
@@ -64,21 +64,21 @@ export class StructureComponent implements OnInit {
 
         },
         {
-            "department": "Executive Support",
+            "department": "Strategic Solutions",/* 3 */
             "name": "Michael Barnard",
             "description": "Michael provides executive support to Vish Rajpal, focussing on the Applications domain, and assists with various other strategic projects on a case by case basis as required, including process improvement and other cross-divisional initiatives.",
             "imageUrl": "",
             "alternate": ""
         },
         {
-            "department": "Manager Marketing & Communications",
+            "department": "Manager Marketing & Communications",/* 4 */
             "name": "Nikhil Ramlal",
             "description": "Nikhil is the liaison with BCX Marketing and is the custodian of marketing collateral and GTM planning. He assists with campaigns across the BU’s and is also involved with innovation and digital marketing. He is the creative support for ITS.",
             "imageUrl": "",
             "alternate": ""
         },
         {
-            "department": "Commercial Executive",
+            "department": "Commercial Executive",/* 5 */
             "name": "Willem Stigling",
             "description": "Willem provides commercial support for Vish Rajpal and the ITS leadership team. He is involved with commercial contracting as well as advising on large deal commercials. Closely linked to the financial function, Willem provides risk and governance support to the team.",
             "imageUrl": "",
@@ -106,7 +106,7 @@ export class StructureComponent implements OnInit {
             "alternate": ""
         },
         {
-            "department": "Cloud Consulting Lead",
+            "department": "Cloud Consulting Lead", /* 9 */
             "name": "Markham Parenzee",
             "description": "Markham recently joined BCX to lead the Cloud Consulting capability. He consults to customers on a wide range of cloud-related topics and collaborates across BCX with other cloud-related functions. The cloud consulting capability is newly established and Markham brings a wealth of experience in the field, which is now available to BCX customers who are all on some form of cloud journey. Markham brings together the BCX cloud and infrastructure offerings, the OEM cloud offerings as well as the global hyperscale cloud vendors in a cohesive consulting framework.",
             "imageUrl": "",
@@ -119,7 +119,7 @@ export class StructureComponent implements OnInit {
             }
         },
         {
-            "department": "Envisioning Lead",
+            "department": "Envisioning Lead", /* 10 */
             "name": "Fazel Ally",
             "description": "A seasoned solution architect, Fazel is responsible for bringing together complex solutions and various combinations of products and services across ITS. He works on large bids and has broad knowledge of the wide range of value propositions across the ITS domain. He has excellent knowledge of the ITS BU’s and can direct enquiries and opportunities to the right place to be serviced. He maintains a database of marketing and other collateral from the BU’s and uses this to build complex proposals and big bids. He liaises closely with the bid office and also acts as a conduit between the CSO and the ITS BU’s. Although he sits in Digital Edge, Fazel operates right across the ITS division.",
             "imageUrl": "",
@@ -133,7 +133,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Digital Development Lead",
+            "department": "Digital Development Lead", /* 11 */
             "name": "Liziwe Maseko",
             "description": "Liziwe is the ITSD point of contact for all things development related. She manages a team of architects and developers with development skills in a wise range of programming languages. These teams work on site at BCX customers developing and maintaining applications. They develop across a wide range of platforms using both waterfall and agile methodologies. Liziwe’steam are also responsible for mobile app development.",
             "imageUrl": "",
@@ -210,7 +210,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Enterprise Application Solutions",
+            "department": "Enterprise Application Solutions",/* 17 */
             "name": "Shamalan Soobiah",
             "description": "Shamalan brings vast enterprise IT knowledge and consulting experience to bear and is caretaking the EAS domain until a ME is appointed. He has wide knowledge and intellectual property across the OEM space and manages the TGIT  outsource as well as the BCX Application Outsource business.",
             "imageUrl": "",
@@ -224,7 +224,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "SAP CoE Lead",
+            "department": "SAP CoE Lead", /* 18 */
             "name": "Lucy Mathosa",
             "description": "Lucy heads up the SAP OEM business which has a dominant market position especially in the retail vertical. Lucy uses her xxxxxbackground to lead the SAP enterprise unit as it transitions the SAP customer base to the SAP cloud offerings. (to be expanded)",
             "imageUrl": "",
@@ -238,14 +238,14 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Microsoft CoE Lead",
+            "department": "Microsoft CoE Lead", /* 20 */
             "name": "Busi Moale",
             "description": "Andrew’s role within the Microsoft business is to....(expand here). He has a strong background in...(expand here) and will use this to do x and y.",
             "imageUrl": "",
             "alternate": ""
         },
         {
-            "department": "Oracle CoE Lead",
+            "department": "Oracle CoE Lead",/* 20 */
             "name": "Busi Moale",
             "description": "Busi is the leader of the Oracle OEM business unit which combines two Oracle businesses that were acquired by BCX. One part of this unit consists of a more traditional business focussed on the Oracle database side of things, while the other part specialises in ..... (expand here). The main focus of this business lies in the deployment of Oracle software across the enterprise.",
             "imageUrl": "",
@@ -259,7 +259,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Application Outsource CoE Lead",
+            "department": "Application Outsource CoE Lead", /* 21 */
             "name": "Shamalan Soobiah",
             "description": "Shamalan brings vast enterprise IT knowledge and consulting experience to bear and is caretaking the EAS domain until a ME is appointed. He has wide knowledge and intellectual property across the OEM space and manages the TGIT  outsource as well as the BCX Application Outsource business. Shamalan keeps the Telkom Group IT machine running like well-oiled machine and spends his time managing the many challenges this brings.",
             "imageUrl": "",
@@ -273,21 +273,21 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Smart Municipal Solutions",
+            "department": "Smart Municipal Solutions", /* 22 */
             "name": "Modise Nyawane",
             "description": "Modise is responsible for managing this business which is an own-IP operation that has deployed a municipal financial application called Solar across a major share of South African municipalities. This software was developed by BCX many years ago and is a leader in its field. The Solar software runs in 63 municipalities and two metros currently, and the application is currently being modernised.",
             "imageUrl": "",
             "alternate": {
                 "department": "Smart Municipal Solutions Alternate",
                 "name": "Potso Mohajane",
-                "description": "Potsois responsible for business development for the Solar business and has vast experience in the world of municipalities. He travels across South Africa consulting to municipalities. (To be expanded)",
+                "description": "Potso is responsible for business development for the Solar business and has vast experience in the world of municipalities. He travels across South Africa consulting to municipalities. (To be expanded)",
                 "imageUrl": "",
                 "alternate": ""
             }
         },
         
         {
-            "department": "Smart Retail Solutions",
+            "department": "Smart Retail Solutions",/* 23 */
             "name": "Jaco Moolman",
             "description": "Jaco leads this business unit which supplies the bulk of South Africa’s retailers with point of sale (POS) solutions. This BU also has a dominant position in the fuel forecourts, supplying several technologies such as pump and fuel flow monitoring equipment coupled with technology to enable the shops on fuel forecourts. This business is currently focussed on modernising its offering, and its footprint extends throughout the country.",
             "imageUrl": "",
@@ -301,7 +301,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Smart Monitoring",
+            "department": "Smart Monitoring", /* 24 */
             "name": "Shamalan Soobiah",
             "description": "Shamalan leads the ITS operational performance management business which tracks business transactions through the IT stack via a system of controllers and software agents that intelligently monitor business activity and customer transactions that touch multiple systems, applications and databases. This provides a single pane of glass for IT and business to monitor these activities and determine where there are problems or bottlenecks. This team also designs their own agents to perform various monitoring functions. The technology deployed by this team is the Cisco AppDynamics platform.",
             "imageUrl": "",
@@ -329,14 +329,14 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Secure",
+            "department": "BCX Secure",
             "name": "Aurelien Duarte",
             "description": "Aurelien has vast experience in delivering security solutions to South African enterprises. He leads the Smart Secure business unit that ensures that BCX customer’s data is secure and not vulnerable to exploitation. Aurelienand his team spend their time managing enterprise security risks by deploying various software solutions and technology designed to secure enterprise operations and information, and protect these from outside intervention or access. ",
             "imageUrl": "",
             "alternate": {
-                "department": "Secure Alternate",
+                "department": "BCX Secure Alternate",
                 "name": "Charles Loots",
-                "description": "Charles works with Aureliento run the Smart Secure business on a day to day basis. His role is to xxxxand yyyy. (please expand here)",
+                "description": "Charles works with Aureliento run the BCX Secure business on a day to day basis. His role is to xxxxand yyyy. (please expand here)",
                 "imageUrl": "",
                 "alternate": ""
             }
@@ -378,7 +378,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Customer First Centre",
+            "department": "Customer First Centre", /* 30 */
             "name": "Andrina Oliphant",
             "description": "Hello",
             "imageUrl": "",
@@ -392,7 +392,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Service Management",
+            "department": "Service Management", /* 31 */
             "name": "Frans Basson",
             "description": "Hello",
             "imageUrl": "",
