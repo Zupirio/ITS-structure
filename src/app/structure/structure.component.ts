@@ -383,13 +383,13 @@ export class StructureComponent implements OnInit {
         {
             "department": "Enterprise Cloud & Infrastructure Solutions",
             "name": "Leon Gerber (Acting)",
-            "description": "Hello",
+            "description": "",
             "imageUrl": "",
             "alternate": {
                 "department": "Enterprise Cloud & Infrastructure Solutions Alternate",
                 "name": "Seelan Thathiah",
-                "description": "Helo",
-                "imageUrl": "",
+                "description": "",
+                "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Seelan-min.jpg",
                 "alternate": ""
             }
         },
