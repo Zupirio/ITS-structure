@@ -76,7 +76,7 @@ export class StructureComponent implements OnInit {
             "alternate": ""
         },
         {
-            "department": "Manager Marketing & Communications",/* 4 */
+            "department": "Marketing & Communications",/* 4 */
             "name": "Nikhil Ramlal",
             "description": "Nikhil is the liaison with BCX Marketing and is the custodian of marketing collateral and GTM planning. He assists with campaigns across the BU’s and is also involved with innovation and digital marketing. He is the creative support for ITS.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Nik.jpg",
