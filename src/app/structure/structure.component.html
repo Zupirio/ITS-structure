@@ -242,7 +242,15 @@ drives the strategic objectives and KPI’s with his leadership team.
                                   <div class="desc">{{cardprofile.description}}</div>
                                   <div class="desc"></div>
                                   <div class="desc"></div>
-                                  <div class="desc"></div>
+                                  <div *ngIf = "cardprofile.alternate" class="desc">
+                                    <span>Alternate Contact : </span> <br>
+                                    <span>
+                                    {{cardprofile.alternate.name}}
+                                  </span><br>
+                                  <span>
+                                    {{cardprofile.alternate.description}}
+                                  </span>
+                                </div>
                               </div>
                               <div class="bottom">
                                  
