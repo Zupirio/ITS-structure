@@ -303,7 +303,7 @@ export class StructureComponent implements OnInit {
         {
             "department": "SAP CoE", /* 18 */
             "name": "Lucy Mathosa",
-            "description": "Lucy heads up the SAP OEM business which has a dominant market position especially in the retail vertical. Lucy uses her xxxxxbackground to lead the SAP enterprise unit as it transitions the SAP customer base to the SAP cloud offerings. (to be expanded)",
+            "description": "Lucy heads up the SAP OEM business which has a dominant market position especially in the retail vertical. Lucy uses her background to lead the SAP enterprise unit as it transitions the SAP customer base to the SAP cloud offerings.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Lucy-min.jpg",
             "alternate": {
                 "department": "SAP CoE Alternate",
