@@ -342,7 +342,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Application Outsource CoE", /* 21 */
+            "department": "Application Outsource", /* 21 */
             "name": "Shamalan Soobiah",
             "description": "Shamalan brings vast enterprise IT knowledge and consulting experience to bear and is caretaking the EAS. He has wide knowledge and intellectual property across the OEM space and manages the TGIT  outsource as well as the BCX Application Outsource business. Shamalan keeps the Telkom Group IT machine running like well-oiled machine and spends his time managing the many challenges this brings.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Shamalan-min.jpg",
@@ -356,7 +356,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Smart Municipal Solutions", /* 22 */
+            "department": "Smart Municipal", /* 22 */
             "name": "Modise Nyawane",
             "description": "Modise is responsible for managing this business which is an own-IP operation that has deployed a municipal financial application called Solar across a major share of South African municipalities. This software was developed by BCX many years ago and is a leader in its field. The Solar software runs in 63 municipalities and two metros currently, and the application is currently being modernised.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Modise-min.jpg",
@@ -370,7 +370,7 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Smart Retail Solutions",/* 23 */
+            "department": "Smart Retail",/* 23 */
             "name": "Jaco Moolman",
             "description": "Jaco leads this business unit which supplies the bulk of South Africa’s retailers with point of sale (POS) solutions. This BU also has a dominant position in the fuel forecourts, supplying several technologies such as pump and fuel flow monitoring equipment coupled with technology to enable the shops on fuel forecourts. This business is currently focussed on modernising its offering, and its footprint extends throughout the country.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Jaco-min.jpg",
@@ -454,7 +454,7 @@ export class StructureComponent implements OnInit {
         },
         {
             "department": "Enterprise Cloud & Infrastructure Solutions",
-            "name": "Leon Gerber (Acting)",
+            "name": "Leon Gerber (acting)",
             "description": "",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Leon-min.jpg",
             "alternate": {
@@ -576,6 +576,19 @@ export class StructureComponent implements OnInit {
                 "alternate": ""
             }
         },
+        {
+            "department": "Presales/Solution Architecture",
+            "name": "Karen Luyt",
+            "description": "Karen is the lead for Digital Transformation Consulting. She develops customer digital transformation journeys and roadmaps, and maintains the related digital transformation IP and consulting frameworks. Karen is customer facing and consults with customers on their digital transformation journey, as the “thin edge of the wedge”, to assist in generating downstream opportunities for the rest of BCX. She is also involved with CSO in the development of vertical industry frameworks (VIF’s) and designs value propositions using BCX and partner assets to address Industry needs. She is passionate about the digitally connected workplace and how this links to the employee value proposition (EVP) and is working on strategic initiatives in that domain.",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Karen-min.jpg",
+            "alternate": {
+                "department": "",
+                "name": "",
+                "description": "",
+                "imageUrl": "",
+                "alternate": ""
+            }
+        }
         
     ];
 
