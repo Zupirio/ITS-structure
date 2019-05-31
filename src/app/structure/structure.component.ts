@@ -112,7 +112,7 @@ export class StructureComponent implements OnInit {
             }
         },
         {
-            "department": "Marketing & Communications",/* 4 */
+            "department": "Marketing & Communications Lead",/* 4 */
             "name": "Nikhil Ramlal",
             "description": "Nikhil is the liaison with BCX Marketing and is the custodian of marketing collateral and GTM planning. He assists with campaigns across the BU’s and is also involved with innovation and digital marketing. He is the creative support for ITS.",
             "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Nik.jpg",
@@ -432,7 +432,7 @@ export class StructureComponent implements OnInit {
             "imageUrl": "",
             "alternate": {
                 "department": "Smart Fuel Alternate",
-                "name": "",
+                "name": "Shaun Ferriera",
                 "description": "Assists Deon with Smart Fuel development, implementation and growth strategy.",
                 "imageUrl": "",
                 "alternate": ""
