@@ -280,7 +280,7 @@ export class StructureComponent implements OnInit {
             "alternate": {
                 "department": "Smart Municipal Solutions Alternate",
                 "name": "Potso Mohajane",
-                "description": "Potso is responsible for business development for the Solar business and has vast experience in the world of municipalities. He travels across South Africa consulting to municipalities. (To be expanded)",
+                "description": "Potso is responsible for business development and provide operational billing support for municipal customers. Potso has extensive experience in municipal business operations, having plied his skills in the areas of water, fleet management and revenue management. He travels across South Africa providing support, guidance and consulting to municipalities with the aim of creating sustainable and effective organisations.",
                 "imageUrl": "",
                 "alternate": ""
             }
@@ -345,12 +345,12 @@ export class StructureComponent implements OnInit {
         {
             "department": "Smart Fuel",
             "name": "Deon Jacobs",
-            "description": "Please complete this description of Deon’s role and what the BU does",
+            "description": "Responsible for the development, implementation and overall growth strategy of the Fuels business within BCX. To explore new markets and sectors that will enhance our position as a market leader in the Fuel site systems environment. E2E solution provider in Forecourt automation and Site systems. Wet Stock Management solutions that include the supply and maintenance of fuel storage, dispensing and measuring equipment. Integrated site systems that include Point of Sale, Back office , integrated payments and Head office connectivity solutions.",
             "imageUrl": "",
             "alternate": {
                 "department": "Smart Fuel Alternate",
                 "name": "TBC",
-                "description": "Please supply a name and a description of the person’s role and function",
+                "description": "Assists Deon with Smart Fuel development, implementation and growth strategy.",
                 "imageUrl": "",
                 "alternate": ""
             }
