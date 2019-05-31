@@ -426,14 +426,14 @@ export class StructureComponent implements OnInit {
         },
         
         {
-            "department": "Smart Fuel", /* 27 */
+            "department": "BCX Octane", /* 27 */
             "name": "Deon Jacobs",
             "description": "Responsible for the development, implementation and overall growth strategy of the Fuels business within BCX. To explore new markets and sectors that will enhance our position as a market leader in the Fuel site systems environment. E2E solution provider in Forecourt automation and Site systems. Wet Stock Management solutions that include the supply and maintenance of fuel storage, dispensing and measuring equipment. Integrated site systems that include Point of Sale, Back office , integrated payments and Head office connectivity solutions.",
             "imageUrl": "",
             "alternate": {
                 "department": "Smart Fuel Alternate",
                 "name": "Shaun Ferriera",
-                "description": "Assists Deon with Smart Fuel development, implementation and growth strategy.",
+                "description": "Assists Deon with BCX Octane development, implementation and growth strategy.",
                 "imageUrl": "",
                 "alternate": ""
             }
@@ -512,7 +512,7 @@ export class StructureComponent implements OnInit {
             "department": "Monitoring CoE", /* 33 */
             "name": "Neil Claassens",
             "description": "",
-            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Neil.jpg",
+            "imageUrl": "https://bcxgallery.s3.us-east-2.amazonaws.com/Neil-min.jpg",
             "alternate": {
                 "department": "Monitoring CoE Alternate",
                 "name": "Pieter van Blommestein",
