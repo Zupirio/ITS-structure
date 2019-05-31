@@ -24,13 +24,13 @@ export class StructureComponent implements OnInit {
   	this.cardprofile.department = this.employees[i].department;
   	this.cardprofile.name = this.employees[i].name;
   	this.cardprofile.description = this.employees[i].description;
-/*
+
     if (this.employees[i].imageUrl) {
         this.cardprofile.imageUrl = this.employees[i].imageUrl;
      }
      else {
       this.cardprofile.imageUrl = "https://docs.atlassian.com/aui/8.0.2/docs/images/avatar-person.svg";   
-     } */
+     } 
   }
 
 
