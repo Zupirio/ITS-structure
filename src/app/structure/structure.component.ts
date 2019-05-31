@@ -58,7 +58,7 @@ export class StructureComponent implements OnInit {
         {
             "department": "Strategic Solutions",/* 2 */
             "name": "Leon Gerber",
-            "description": "Leon provides executive support to Vish Rajpal, focussing on the Cloud and Infrastructure domain, and assists with various other strategic projects on a case by case basis as required, including process improvement and other cross-divisional initiatives.",
+            "description": "Leon provides executive support to Vish Rajpal, focussing on the Cloud and Infrastructure domain, and assists with various other strategic projects on a case by case basis as required, including process improvement and other cross-divisional initiatives. The essence of all the initiatives engaged is to deliver on the ITS business plan by leveraging and enhancing current capability but also to identify opportunities and partnerships to achieve stepped changes. ",
             "imageUrl": "",
             "alternate": ""
 
@@ -101,19 +101,19 @@ export class StructureComponent implements OnInit {
         {
             "department": "Digital Transformation",
             "name": "Karen Luyt",
-            "description": "Karen is the lead for Digital Transformation Consulting. She maintains the digital transformation IP and consulting frameworks. Karen develops customer digital transformation journeys and roadmaps. She is customer facing and consults with customers as the “thin edge of the wedge” to assist in generating downstream opportunities for the rest of BCX. She is also involved with CSO in the development of vertical industry frameworks (VIF’s) and operational process improvement, specifically the Lead to Cash process. She is passionate about the connected workplace and the digital worker and is working on initiatives in that domain.",
+            "description": "Karen is the lead for Digital Transformation Consulting. She develops customer digital transformation journeys and roadmaps, and maintains the related digital transformation IP and consulting frameworks. Karen is customer facing and consults with customers on their digital transformation journey, as the “thin edge of the wedge”, to assist in generating downstream opportunities for the rest of BCX. She is also involved with CSO in the development of vertical industry frameworks (VIF’s) and designs value propositions using BCX and partner assets to address Industry needs. She is passionate about the digitally connected workplace and how this links to the employee value proposition (EVP) and is working on strategic initiatives in that domain.",
             "imageUrl": "",
             "alternate": ""
         },
         {
             "department": "Cloud Consulting Lead", /* 9 */
             "name": "Markham Parenzee",
-            "description": "Markham recently joined BCX to lead the Cloud Consulting capability. He consults to customers on a wide range of cloud-related topics and collaborates across BCX with other cloud-related functions. The cloud consulting capability is newly established and Markham brings a wealth of experience in the field, which is now available to BCX customers who are all on some form of cloud journey. Markham brings together the BCX cloud and infrastructure offerings, the OEM cloud offerings as well as the global hyperscale cloud vendors in a cohesive consulting framework.",
+            "description": "Markham recently joined BCX to lead the Cloud Consulting capability. He consults to customers on a wide range of cloud-related topics and collaborates across BCX with other cloud-related functions. The cloud consulting capability is newly established and Markham brings a wealth of experience in the field, which is now available to BCX customers who are all on some form of cloud journey. Markham brings together the BCX cloud and infrastructure offerings, the OEM cloud offerings as well as the global hyperscale cloud vendors in a cohesive consulting framework. He is also responsible for establishing and launching the BCX AWS Practice.",
             "imageUrl": "",
             "alternate" : {
                 "department": "Cloud Consulting Alternate",
                 "name": "Matthew De Fine",
-                "description": "Coming from a background of solution architecture and enterprise architecture, Matthew is also involved in the BCX cloud consulting capability, advising BCX customers on all things cloud, and continuously improving and extending the BCX cloud consulting framework. He is customer-facing and performs a consulting role in Digital Edge, assisting customers with their complex journeys to the cloud, cloud migrations, and has a particular interest in the Amazon W eb Services (AW S) domain, being an expert in that field. He also has broad knowledge of the global hyperscale cloud offerings and can compare and contract these for customers.",
+                "description": "Coming from a background of solution architecture and digital innovation, Matthew is also involved in the BCX cloud consulting capability, advising BCX customers on all things cloud, and continuously improving and extending the BCX cloud consulting framework. He is customer-facing and performs a consulting role in Digital Edge, assisting customers with their complex journeys to the cloud, cloud migrations, and has a particular interest in the Amazon Web Services (AWS) domain, being an expert in that field. He also has broad knowledge of the global hyperscale cloud offerings and can compare and contrast these for customers.",
                 "imageUrl": "",
                 "alternate": ""
             }
@@ -126,7 +126,7 @@ export class StructureComponent implements OnInit {
             "alternate": {
                 "department": "Envisioning Alternate",
                 "name": "Jonathan Eason",
-                "description": "Jonathan is a solution architect operating across the ITS division, bringing together diverse products and services into cohesive bids. W orking closely with Fazel Ally, Jonathan brings considerable experience in the infrastructure, storage and network domains and combines this experience with the application space. Jonathan has close links to the bid office and works with the CSO to develop solutions for ITS customers.",
+                "description": "Jonathan is a solution architect operating across the ITS division, bringing together diverse products and services into cohesive bids. Working closely with Fazel Ally, Jonathan brings considerable experience in the infrastructure, network and managed service domains and combines this experience with the application space. Jonathan has close links to the bid office and works with the CSO to develop solutions for ITS customers.",
                 "imageUrl": "",
                 "alternate": ""
             }
@@ -184,7 +184,7 @@ export class StructureComponent implements OnInit {
         {
             "department": "RPA Lead",
             "name": "Kerushan Naidoo",
-            "description": "Kerushanwas a founder member of the Digital Edge Robotic Process Automation (RPA) unit and is experienced in the end to end rollout of RPA at customers. He project managed the first RPA projects delivered by the RPA capability and has been key in building this capacity. He is also experienced in consulting on RPA and business development. He is customer-facing and has the capability to present to prospective customers on RPA.",
+            "description": "Kerushan is a founding member of the Digital Edge Robotic Process Automation (RPA) unit and is experienced in the end to end rollout of RPA at customers. He has setup and managed the first RPA projects delivered by the BCX capability and has been key in building its capacity. He is also experienced in consulting on RPA and technology strategy. He is customer-facing and has the capability to present to prospective customers on RPA.",
             "imageUrl": "",
             "alternate": {
                 "department": "RPA Alternate",
@@ -212,7 +212,7 @@ export class StructureComponent implements OnInit {
         {
             "department": "Enterprise Application Solutions",/* 17 */
             "name": "Shamalan Soobiah",
-            "description": "Shamalan brings vast enterprise IT knowledge and consulting experience to bear and is caretaking the EAS domain until a ME is appointed. He has wide knowledge and intellectual property across the OEM space and manages the TGIT  outsource as well as the BCX Application Outsource business.",
+            "description": "Shamalan brings vast enterprise IT knowledge and consulting experience to bear and is caretaking the EAS. He has wide knowledge and intellectual property across the OEM space and manages the TGIT  outsource as well as the BCX Application Outsource business.",
             "imageUrl": "",
             "alternate": {
                 "department": "Enterprise Application Solutions Alternate",
@@ -261,12 +261,12 @@ export class StructureComponent implements OnInit {
         {
             "department": "Application Outsource CoE Lead", /* 21 */
             "name": "Shamalan Soobiah",
-            "description": "Shamalan brings vast enterprise IT knowledge and consulting experience to bear and is caretaking the EAS domain until a ME is appointed. He has wide knowledge and intellectual property across the OEM space and manages the TGIT  outsource as well as the BCX Application Outsource business. Shamalan keeps the Telkom Group IT machine running like well-oiled machine and spends his time managing the many challenges this brings.",
+            "description": "Shamalan brings vast enterprise IT knowledge and consulting experience to bear and is caretaking the EAS. He has wide knowledge and intellectual property across the OEM space and manages the TGIT  outsource as well as the BCX Application Outsource business. Shamalan keeps the Telkom Group IT machine running like well-oiled machine and spends his time managing the many challenges this brings.",
             "imageUrl": "",
             "alternate": {
                 "department": "Application Outsource Alternate",
                 "name": "Wim Saunderson",
-                "description": "Wim is mainly involved in the operational management of the TGIT outsource, the biggest outsource in South Africa. W im works with Shamalan to manage a staff complement of approximately xx who deliver the IT function for Telkom, a massive telco operation. This team enables the day to day function of a vast Telkom workforce and a huge team of IT personal across the country. W im and his team also work with ITS to develop capabilities that can be spun out of Telkom and deployed at other BCX customers.",
+                "description": "Wim is mainly involved in the operational management of the TGIT outsource, the biggest outsource in South Africa. Wim works with Shamalan to manage a staff complement of approximately xx who deliver the IT function for Telkom, a massive telco operation. This team enables the day to day function of a vast Telkom workforce and a huge team of IT personal across the country. Wim and his team also work with ITS to develop capabilities that can be spun out of Telkom and deployed at other BCX customers.",
                 "imageUrl": "",
                 "alternate": ""
             }
@@ -303,12 +303,12 @@ export class StructureComponent implements OnInit {
         {
             "department": "Smart Monitoring", /* 24 */
             "name": "Shamalan Soobiah",
-            "description": "Shamalan leads the ITS operational performance management business which tracks business transactions through the IT stack via a system of controllers and software agents that intelligently monitor business activity and customer transactions that touch multiple systems, applications and databases. This provides a single pane of glass for IT and business to monitor these activities and determine where there are problems or bottlenecks. This team also designs their own agents to perform various monitoring functions. The technology deployed by this team is the Cisco AppDynamics platform.",
+            "description": "Shamalan leads the ITS operational performance management business which tracks business transactions through the IT stack via a system of controllers and software agents that intelligently monitor business activity and customer transactions that touch multiple systems, applications and databases. This provides a single pane of glass for IT and business to monitor these activities and determine where there are problems or bottlenecks which improve remediation activities and ultimately leads to better customer experiences. This team also designs their own agents to perform various monitoring functions. The technology deployed by this team is the Cisco AppDynamics platform.",
             "imageUrl": "",
             "alternate": {
                 "department": "Smart Monitoring Alternate",
                 "name": "Charles Stevens",
-                "description": "Charles is the alternate contact person for Smart Monitoring and is responsible for running the business on a day to day basis. Charles has many years of APM experience, specifically in the Telkom domain where he has played an active role for several years. His team are further developing this capability to enable it to go to market to other BCX customers outside of Telkom in the future.",
+                "description": "Charles is the alternate contact person for Smart Monitoring and is responsible for running the business on a day to day basis. Charles has many years of APM experience, specifically in the Telkom domain where he has played an active role for several years. He and his team are further developing this capability to enable it to go to market to other BCX customers outside of Telkom in the future.",
                 "imageUrl": "",
                 "alternate": ""
             }
@@ -331,12 +331,12 @@ export class StructureComponent implements OnInit {
         {
             "department": "BCX Secure",
             "name": "Aurelien Duarte",
-            "description": "Aurelien has vast experience in delivering security solutions to South African enterprises. He leads the Smart Secure business unit that ensures that BCX customer’s data is secure and not vulnerable to exploitation. Aurelienand his team spend their time managing enterprise security risks by deploying various software solutions and technology designed to secure enterprise operations and information, and protect these from outside intervention or access. ",
+            "description": "Aurelien has extensive experience in developing and delivering security solutions to enterprises. He leads the BCX Secure business unit which combines cutting edge big data, artificial intelligence and subject matter experts to create data-driven security services that meet today’s landscape of ever-changing security threats. In addition to consulting and MSSP services, the business unit is developing SaaS offerings for a global market.",
             "imageUrl": "",
             "alternate": {
                 "department": "BCX Secure Alternate",
                 "name": "Charles Loots",
-                "description": "Charles works with Aureliento run the BCX Secure business on a day to day basis. His role is to xxxxand yyyy. (please expand here)",
+                "description": "Charles works with Aurelien and leads the development and architecture of technologies that are integrated and developed within the business unit with a focus on security, interoperability and scalability. He is currently driving the operationalisation of technology, people and processes within the BCX Security Operations Centre (SOC).",
                 "imageUrl": "",
                 "alternate": ""
             }
