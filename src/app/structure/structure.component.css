@@ -162,10 +162,11 @@ body {
 }
 
 .vishPic {
-    max-width: 100%;
+    max-width: 50%;
     max-height: 100%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
+    width: 50%;
     border-radius: 50%;
     border: 5px solid rgba(255, 255, 255, 0.5);
 }
