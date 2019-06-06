@@ -1,0 +1,20 @@
+{"dir" : "ltr",
+    "lang" : "en",
+    "name" : "ITS Structure",
+    "scope" : "/",
+    "display" : "browser",
+    "start_url" : "https://its-structure.firebaseapp.com/",
+    "short_name" : "ITS Structure",
+    "theme_color" : "transparent",
+    "description" : "",
+    "orientation" : "any",
+    "background_color" : "transparent",
+    "related_applications" : "",
+    "prefer_related_applications" : "false",
+    "generated" : "true",
+    "icons" : [
+        {
+            "src": "https://www.bcx.co.za/wp-content/uploads/2017/06/favicon_X.png",
+            "sizes": "256x256"
+        }
+    ]}
