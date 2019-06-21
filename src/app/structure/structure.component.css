@@ -147,14 +147,13 @@ body {
 .card.hovercard .avatar {
     position: relative;
     top: -50px;
-    margin-bottom: -50px;
 }
 
 .card.hovercard .avatar img {
     width: 400%;
     height: 400%;
     max-width: 200px;
-    max-height: 300px;
+    max-height: 200px;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;

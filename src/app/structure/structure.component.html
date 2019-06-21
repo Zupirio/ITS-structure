@@ -202,8 +202,7 @@
               </tr>
   </table>
 
-
-<!-- Modal  -->
+      <!-- Modal  -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
     
@@ -225,14 +224,15 @@
                                   <img alt="" src="{{cardprofile.imageUrl}}">
                               </div>
                               <div *ngIf = "cardprofile" class="info">
+                               
                                   <div class="title">
                                       <p>{{cardprofile.department}}</p>
                                   </div>
+
                                   <div class="desc"><b>{{cardprofile.name}}</b><br></div>
                                   <div class="desc">{{cardprofile.description}}</div>
                                   <br>
-                                  <div class="desc"></div>
-                                  <div class="desc"></div>
+                                 
                                   <div *ngIf = "cardprofile.alternate.name !== ''" class="desc">
                                     <br><span><u>Alternate Contact</u>:</span>
                                     <span><b>
@@ -262,6 +262,8 @@
       
     </div>
   </div>
+  <!-- no slacking -->
+
 
   </div>
 </body>
