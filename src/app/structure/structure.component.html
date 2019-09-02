@@ -1,6 +1,4 @@
   <body>
-    <h2 style="text-align: center; font-size: 20; padding-top: 2%" >Meet the ITS Leadership Team</h2>
-    <br><br><br>
     
     <div>
       <p style="text-align: center"><i>Tip: Click on each leader's name to find out more about their role.</i></p>
@@ -37,7 +35,7 @@
     </tr>
     <tr>
       <th style="background-color:#e2e0db; text-align: center">Executive Support</th>
-      <th style="background-color:#e2e0db; text-align: center">Digital Edge<br><span style="font-weight: normal;" ></span></th> 
+      <th style="background-color:#e2e0db; text-align: center" (click)="showMe(6)" data-toggle="modal" data-target="#myModal" >Digital Edge<br><span style="font-weight: normal;" > Renesh Buldeo</span></th> 
       <th style="background-color:#E2E0DB; text-align: center" (click)="showMe(17)" data-toggle="modal" data-target="#myModal">Enterprise Application Solutions<br><span style="font-weight: normal;" > Shamalan Soobiah (acting)</span></th>
       <th style="background-color:#e2e0db; text-align: center">Specialised Solutions</th> 
       <th style="background-color:#E2E0DB; text-align: center" (click)="showMe(29)" data-toggle="modal" data-target="#myModal">Enterprise Cloud and Infrustructure Solutions<br><span style="font-weight: normal;" > Leon Gerber (acting)</span> </th>
@@ -58,10 +56,10 @@
           <div class="sub"> Lucy Mathosa </div>
         </td>
       <td style="text-align: center" (click)="showMe(22)" data-toggle="modal" data-target="#myModal">
-          <div class="title"> <b>Smart Municipal</b> </div>
+          <div class="title"> <b>Municipal Solutions</b> </div>
           <div class="sub"> Modise Nyawane </div>
         </td> 
-      <td style="text-align: center" (click)="showMe(10)" data-toggle="modal" data-target="#myModal">
+      <td style="text-align: center" (click)="showMe(10)"data-toggle="modal" data-target="#myModal">
           <div class="title"> <b>Presales/Solution Architecture</b> </div>
           <div class="sub"> Fazel Ally </div>
         </td>
@@ -81,7 +79,7 @@
           <div class="sub"> Busi Moale </div>
         </td>
       <td style="text-align: center" (click)="showMe(23)" data-toggle="modal" data-target="#myModal">
-          <div class="title"> <b>Smart Retail</b> </div>
+          <div class="title"> <b>Retail Solutions</b> </div>
           <div class="sub"> Jaco Moolman </div>
         </td> 
       <td style="text-align: center" (click)="showMe(30)" data-toggle="modal" data-target="#myModal">
@@ -90,10 +88,11 @@
         </td>
     </tr>
     <tr>
-        <td style="text-align: center" (click)="showMe(4)" data-toggle="modal" data-target="#myModal">
-            <div class="title"> <b>Marketing & Communications</b> </div>
-            <div class="sub">  Nikhil Ramlal </div>
-        </td>
+      <td style="text-align: center" (click)="showMe(5)" data-toggle="modal" data-target="#myModal">
+
+        <div class="title"> <b>Commercial</b> </div>
+        <div class="sub">  Willem Stigling </div>
+    </td>
       <td style="text-align: center" (click)="showMe(10)" data-toggle="modal" data-target="#myModal">
           <div class="title"> <b>Digital Envision</b> </div>
           <div class="sub"> Fazel Ally </div>
@@ -103,7 +102,7 @@
           <div class="sub"> Busi Moale </div>
         </td>
       <td style="text-align: center" (click)="showMe(24)" data-toggle="modal" data-target="#myModal">
-          <div class="title"> <b>Smart Monitoring</b> </div>
+          <div class="title"> <b>Monitoring Solutions</b> </div>
           <div class="sub"> Shamalan Soobiah </div>
         </td> 
       <td style="text-align: center" (click)="showMe(31)" data-toggle="modal" data-target="#myModal">
@@ -112,11 +111,11 @@
         </td>
     </tr>
     <tr>
-        <td style="text-align: center" (click)="showMe(5)" data-toggle="modal" data-target="#myModal">
+      <td style="text-align: center" (click)="showMe(1)" data-toggle="modal" data-target="#myModal">
 
-            <div class="title"> <b>Commercial</b> </div>
-            <div class="sub">  Willem Stigling </div>
-        </td>
+        <div class="title"> <b>Executive Assistance</b> </div>
+        <div class="sub">  Sibongile Raikane </div>
+    </td>
       <td style="text-align: center" (click)="showMe(11)" data-toggle="modal" data-target="#myModal">
           <div class="title"> <b>Digital Development</b> </div>
           <div class="sub"> Liziwe Maseko </div>
@@ -126,7 +125,7 @@
           <div class="sub"> Shamalan Soobiah </div>
         </td>
       <td style="text-align: center;" (click)="showMe(25)" data-toggle="modal" data-target="#myModal">
-          <div class="title"> <b>BCX OT and IOT</b> </div>
+          <div class="title"> <b>IOT and OT</b> </div>
           <div class="sub"> Louis van Wyk </div>
         </td> 
       <td style="text-align: center" (click)="showMe(32)" data-toggle="modal" data-target="#myModal">
@@ -135,10 +134,10 @@
         </td>
     </tr>
     <tr>
-        <td style="text-align: center" (click)="showMe(1)" data-toggle="modal" data-target="#myModal">
+        <td style="text-align: center">
 
-            <div class="title"> <b>Executive Assistance</b> </div>
-            <div class="sub">  Sibongile Raikane </div>
+            <div class="title"> </div>
+            <div class="sub"> </div>
         </td>
       <td style="text-align: center" (click)="showMe(12)" data-toggle="modal" data-target="#myModal">
           <div class="title"> <b>Embedded Integration</b> </div>
@@ -147,7 +146,7 @@
       <td></td>
 
       <td style="text-align: center;" (click)="showMe(26)" data-toggle="modal" data-target="#myModal">
-          <div class="title"> <b>BCX Secure</b> </div>
+          <div class="title"> <b>Secure</b> </div>
           <div class="sub"> Aurelien Duarte </div>
         </td> 
       <td style="text-align: center" (click)="showMe(33)" data-toggle="modal" data-target="#myModal">
@@ -164,11 +163,11 @@
         </td>
       <td></td>
       <td style="text-align: center" (click)="showMe(27)" data-toggle="modal" data-target="#myModal">
-          <div class="title"> <b>BCX Octane</b> </div>
+          <div class="title"> <b>Fuel Solutions</b> </div>
           <div class="sub"> Deon Jacobs </div>
         </td> 
       <td style="text-align: center" (click)="showMe(34)" data-toggle="modal" data-target="#myModal">
-          <span><div class="title"> <b>Integr8</b> </div>
+          <span><div class="title"> <b>Mid-market</b> </div>
           <div class="sub"> Jan Roux </div></span>
         </td>
       </tr>
@@ -181,7 +180,7 @@
         </td> 
           <td></td>
           <td style="text-align: center" (click)="showMe(28)" data-toggle="modal" data-target="#myModal">
-              <div class="title"> <b>Smart Payroll</b> </div>
+              <div class="title"> <b>HR and Payroll</b> </div>
               <div class="sub"> Daleen Meinhardt </div>
             </td> 
           <td style="text-align: center" (click)="showMe(35)" data-toggle="modal" data-target="#myModal">
@@ -202,16 +201,16 @@
   </table>
 
       <!-- Modal  -->
-  <div class="modal fade" id="myModal" role="dialog">
+  <div class="modal fade" id="myModal" role="dialog" >
     <div class="modal-dialog">
     
       <!-- Modal content-->
-      <div class="modal-content">
+      <div class="modal-content" id="mod">
        
          <!-- zanele's content here-->
                       
              
-              <div class="card">
+              <div id="mod_c" class="card">
                 
 
                           <div class="card hovercard">
